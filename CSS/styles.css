@@ -1,3 +1,67 @@
 body {
-  background-color: lightblue;
+  background-image: url(clocks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+select {
+  width: 75%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: rgb(99, 63, 197);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: rgba(50, 25, 100, 0.4) 0px 0px 0px 2px,
+    rgba(42, 19, 85, 0.65) 0px 4px 6px -1px,
+    rgba(31, 5, 52, 0.08) 0px 1px 0px inset;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.container {
+  background-color: rgba(231, 230, 255, 0.9);
+  padding: 30px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 600px;
+  color: rgb(99, 63, 197);
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 2px dashed rgba(99, 63, 197, 0.6);
+}
+
+.city-date {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.city-time {
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 50px;
+}
+
+.city-time small {
+  font-size: 20px;
+  vertical-align: middle;
 }
