@@ -50,6 +50,10 @@ footer {
   border-bottom: 2px dashed rgba(99, 63, 197, 0.6);
 }
 
+.city-name-date {
+  text-align: left;
+}
+
 .city-date {
   font-size: 18px;
   font-weight: 500;
