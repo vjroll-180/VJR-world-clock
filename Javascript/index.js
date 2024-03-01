@@ -24,6 +24,19 @@ function updateTimezone() {
       .tz("Europe/Stockholm")
       .format("hh:mm:ss [<small>] A [</small>]");
   }
+
+  let newyorkElement = document.querySelector("#new-york");
+  if (newyorkElement) {
+    let newyorkDateElement = newyorkElement.querySelector(".city-date");
+    let newyorkTimeElement = newyorkElement.querySelector(".city-time");
+
+    newyorkDateElement.innerHTML = moment()
+      .tz("America/New_York")
+      .format("MMMM Do YYYY");
+    newyorkTimeElement.innerHTML = moment()
+      .tz("America/New_York")
+      .format("hh:mm:ss [<small>] A [</small>]");
+  }
 }
 
 function updateCity(event) {
